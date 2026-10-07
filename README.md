@@ -2,7 +2,7 @@
 
 A Windows desktop tool that checks a bundle of scanned invoice PDFs against an Excel invoice list, **stamps only the pages that match** (for example "APPROVED FOR PAYMENT"), and writes an **Excel verification report** showing exactly what was verified, duplicated, mismatched or missing.
 
-It was built for finance operations, where hundreds of invoice pages had to be matched to a payment list and stamped by hand. A full batch now takes minutes, and every decision is recorded in the report.
+It automates the page-by-page work of matching invoices to a payment list and stamping them, and records every decision in the report.
 
 > **About the samples:** everything in `samples/` and in the screenshots is fictional and produced by [`samples/generate_demo_data.py`](samples/generate_demo_data.py). No real invoices or customer data are included.
 
