@@ -1,0 +1,14 @@
+venv/
+build/
+dist/
+__pycache__/
+*.pyc
+_merged_temp_*.pdf
+
+# Bundled OCR binaries (add locally, see src/rdc_stamper/tesseract/README.md)
+src/rdc_stamper/tesseract/*
+!src/rdc_stamper/tesseract/README.md
+installer-output/
+.claude/
+graphify-out/
+*.spec.bak
